@@ -25,6 +25,7 @@ lo que va a crear un nuevo directorio con todos los documentos.
 Este repositorio tiene su propio entorno de [`conda`](https://conda.io/en/latest/), que puede ser creado con el
 siguiente comando
 
+`cd deep-workshop`
 `conda env create -f entorno.yml`
 
 Este comando pedirá confirmación de que se van a agregar todas las librerías y dependencias necesarias para
