@@ -26,6 +26,7 @@ Este repositorio tiene su propio entorno de [`conda`](https://conda.io/en/latest
 siguiente comando
 
 `cd deep-workshop`
+
 `conda env create -f entorno.yml`
 
 Este comando pedirá confirmación de que se van a agregar todas las librerías y dependencias necesarias para
