@@ -38,3 +38,16 @@ comando
 `conda activate deep_workshop`
 
 activando el entorno, y permitiendo ejecutar efectivamente todo el repositorio.
+
+## Alertas y avisos en rojo en cada libreta
+
+Dado que `keras` está basado en `TensorFlow` siempre existirán advertencias en rojo a lo largo de los documentos.
+Esto se debe a que `TensorFlow` está transicionando a una nueva API y todavía no se actualizan las implementaciones
+de `keras` pero esto no impide que se puedan ejecutar los resultados.
+
+## Sobre `model` en `keras`
+
+`keras` funciona instanciando un _modelo_ y luego se agregan capas de unidades a este modelo para crear la red neuronal.
+Sin embargo, cada que se ejecuta la Jupyter Notebook, a menos de que esté explícito en el documento, se estarán agregando
+capas de unidades cada vez que se ejecuta el documento, por esta razón se recomienda ampliamente ejecutar cada libreta
+con el comendo `Kernel > Restart kernel and run all` para limpiar la memoria y ejecutar todo siempre desde el principio.
